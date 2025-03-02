@@ -36,7 +36,6 @@ The project consists of the following files and directories:
 * `blog.html`: The blog section file.
 * `js/main.js`: The JavaScript file containing the application's logic.
 * `README.md`: This file, containing the project overview and instructions.
-* `README copy.md`: A copy of the original README file.
 
 **Getting Started**
 --------------------
