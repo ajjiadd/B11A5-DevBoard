@@ -84,5 +84,9 @@ taskCards.forEach((taskCard) => {
 // Add event listener to clear history button
 document.getElementById('histo-clear-btn').addEventListener('click', clearActivityLog);
 
-// success alert message
+// blog button
+const blogBtn = document.getElementById('blogBtn');
+blogBtn.addEventListener('click', () => {
+    window.location.href = 'blog.html';
+  });
  
