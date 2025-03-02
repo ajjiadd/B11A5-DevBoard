@@ -26,7 +26,7 @@ const taskDone = document.querySelector('#task-done');
 const activityLog = document.querySelector('#completedTaskContainer');
 
 
-// Add event listener to each button
+// Add alert for button
 taskCards.forEach((taskCard) => {
     const taskTitle = taskCard.querySelector('h3').textContent;
     const taskButton = taskCard.querySelector('button');
@@ -42,7 +42,7 @@ taskCards.forEach((taskCard) => {
   });
 
 
-// Function to update task assigned and task done counts
+// update task-assigned and task done counts
 function updateTaskCounts() {
     const assignedCount = document.querySelectorAll('#all-TaskCard-Container > div button:not(:disabled)').length;
     const doneCount = document.querySelectorAll('#all-TaskCard-Container > div button:disabled').length;
